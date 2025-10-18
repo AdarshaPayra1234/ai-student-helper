@@ -6,7 +6,3 @@ channel = "stable"
 
 [env]
 VIRTUAL_ENV = "/opt/virtualenvs/python3"
-
-[packages]
-ollama = "latest"
-python3 = "latest"
