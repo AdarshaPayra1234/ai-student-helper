@@ -10,13 +10,3 @@ VIRTUAL_ENV = "/opt/virtualenvs/python3"
 [packages]
 ollama = "latest"
 python3 = "latest"
-
-FOR CUSTOM PACKAGES { pkgs }: {
-  deps = [
-    pkgs.python3
-    pkgs.python3Packages.pip
-    pkgs.curl
-    pkgs.wget
-    pkgs.ollama
-  ];
-}
